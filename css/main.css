@@ -32,8 +32,8 @@ body {
 .right {
     display: inline-block;
     position: absolute;
-    right: 60px;
-    top: 20px;
+    right: 34px;
+    top: 43px;
 }
 
 .right img {
@@ -65,4 +65,21 @@ body {
 .navbar li a:hover {
     text-decoration: underline;
     color: blue;
+}
+
+.btn {
+    font-family: 'Baloo Bhai', cursive;
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: red;
+    background-color: cyan;
 }
