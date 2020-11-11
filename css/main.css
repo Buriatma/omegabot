@@ -3,7 +3,7 @@ body {
     color: white;
     margin: 0px;
     padding: 0px;
-    background: black
+    background-color: orangered;
 }
 
 .left {
@@ -57,31 +57,46 @@ body {
 }
 
 .navbar li a {
-    color: white;
+    background-color: black;
+    color: red;
     text-decoration: none;
-    padding: 34px 23px;
+    padding: 7px 23px;
+    border: 2px solid black;
+    border-radius: 28px;
 }
 
 .navbar li a:hover {
-    text-decoration: underline;
-    color: blue;
+    background-color: blue;
+    color: white;
 }
 
 .btn {
     font-family: 'Baloo Bhai', cursive;
     margin: 0px 9px;
-    background-color: black;
+    background-color: orangered;
     color: white;
     padding: 4px 14px;
-    border: 2px solid grey;
-    border-radius: 10px;
+    border: 2px solid black;
+    border-radius: 28px;
     font-size: 20px;
     cursor: pointer;
     text-decoration: none;
 }
 
 .btn:hover {
-    color: red;
-    text-decoration: underline;
-    background-color: rgb(31, 30, 30);
+    color: black;
+    background-color: cyan;
+}
+
+.container {
+    background-color: grey;
+    border: 2px solid rgb(255, 0, 0);
+    margin: 202px 80px;
+    padding: 171px;
+    width: 9%;
+    border-radius: 28px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-align: left;
+    color: black;
 }
