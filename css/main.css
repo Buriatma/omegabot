@@ -77,9 +77,11 @@ body {
     border-radius: 10px;
     font-size: 20px;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .btn:hover {
     color: red;
-    background-color: cyan;
+    text-decoration: underline;
+    background-color: rgb(31, 30, 30);
 }
