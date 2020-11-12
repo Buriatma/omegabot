@@ -89,12 +89,12 @@ body {
 }
 
 .container1 {
-    background-color: purple;
-    padding: 36px 357px;
+    background-color: darkorange;
+    padding: 17px 357px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: bold;
     text-align: left;
     color: white;
+    font-weight: bold;
     vertical-align: baseline;
     margin-right: 0px;
     font-size: 25px;
@@ -124,7 +124,33 @@ body {
     height: 50px;
     width: 161px;
     margin-right: -461px;
-    margin-left: 300px;
+    margin-left: -23px;
+}
+
+.footimg2:hover {
+    border: 3px solid black;
+}
+
+.footimg3 {
+    height: 50px;
+    width: 161px;
+    margin-right: -461px;
+    margin-left: -23px;
+}
+
+.footimg3:hover {
+    border: 3px solid black;
+}
+
+.footimg4 {
+    height: 50px;
+    width: 161px;
+    margin-right: -461px;
+    margin-left: -23px;
+}
+
+.footimg4:hover {
+    border: 3px solid black;
 }
 
 .footer {
@@ -146,31 +172,39 @@ body {
 }
 
 .active {
-    color: black;
+    color: rgb(72, 69, 69);
+    font-weight: lighter;
     text-decoration: none;
+}
+
+.active:hover {
+    color: black;
 }
 
 .footphoto {
     margin-left: 10px;
 }
 
-.container2 {
-    background-color: purple;
-    padding: 1px 265px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: bold;
-    text-align: left;
-    color: white;
-    vertical-align: baseline;
-    margin-left: 530px;
-    margin-right: 257px;
-    margin-top: -408px;
-    height: 406px;
-    font-size: 25px;
-}
-
 .headinline {
     display: inline-block;
     box-sizing: border-box;
     width: 314px;
+}
+
+#imgpara {
+    margin-left: 315px;
+    margin-right: 144px;
+    margin-bottom: -85px;
+}
+
+#imgpara2 {
+    margin-left: 315px;
+    margin-right: 144px;
+    margin-bottom: -85px;
+}
+
+#imgpara3 {
+    margin-left: 315px;
+    margin-right: 144px;
+    margin-bottom: -85px;
 }
