@@ -208,3 +208,30 @@ body {
     margin-right: 144px;
     margin-bottom: -85px;
 }
+
+.footright1 {
+    display: inline-block;
+    position: absolute;
+    right: 127px;
+    top: 340px;
+}
+
+.footright2 {
+    display: inline-block;
+    position: absolute;
+    right: 146px;
+    top: 467px;
+}
+
+.footrighthead {
+    display: inline-block;
+    position: absolute;
+    right: 205px;
+    top: 214px;
+}
+
+.footrighthead a {
+    color: white;
+    text-decoration: none;
+    cursor: text;
+}
