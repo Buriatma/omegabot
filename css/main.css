@@ -131,3 +131,59 @@ body {
 .footlinker a:hover {
     color: orangered;
 }
+
+.discord {
+    display: inline-block;
+    position: absolute;
+    right: 605px;
+    top: 485px;
+}
+
+.discord img {
+    width: 150px;
+}
+
+.vote {
+    display: inline-block;
+    position: absolute;
+    right: 614px;
+    top: 574px;
+}
+
+.vote img {
+    width: 130px;
+}
+
+.vote img:hover {
+    border-radius: 15px;
+}
+
+.donate {
+    display: inline-block;
+    position: absolute;
+    right: 306px;
+    top: 484px;
+}
+
+.donate img {
+    width: 150px;
+}
+
+.donate img:hover {
+    border-radius: 15px;
+}
+
+.staff {
+    display: inline-block;
+    position: absolute;
+    right: 306px;
+    top: 580px;
+}
+
+.staff img {
+    width: 150px;
+}
+
+.staff img:hover {
+    border-radius: 15px;
+}
